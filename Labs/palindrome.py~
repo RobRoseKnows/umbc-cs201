@@ -1,0 +1,15 @@
+# File:    palindrome.py
+# Author:  Robert Rose
+# Date:    10/1/15
+# Section: 11
+# E-mail:  robrose2@umbc.edu
+# Description:
+# 
+
+def main():
+    word = str(input("Gimme string"))
+    newWord = ""
+    for c in range(-1, -len(word)):
+        newWord += word[c]
+
+main()

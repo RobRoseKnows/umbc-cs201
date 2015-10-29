@@ -1,0 +1,19 @@
+# File:        errors.py
+# Written by:  Robert Rose
+# Date:        9/9/15
+# Section:     11
+# UMBC Email:  robrose2@cs.umbc.edu
+# Description: This no longer contains some buggy code for me to correct.
+
+def main():
+    print("Robert Rose")
+    print("This program finds the average of two integers.")
+
+    num1 = int(input("Enter the first number please:"))
+    num2 = int(input("Enter the second number please:"))
+    average = (num1 + num2)/2
+
+    print("The average of the two numbers is " ,  average)
+
+main()
+

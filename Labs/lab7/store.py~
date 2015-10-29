@@ -1,0 +1,14 @@
+# File:    store.py
+# Author:  Robert Rose
+# Date:    10/15/15
+# Section: 11
+# E-mail:  robrose2@umbc.edu
+# Description:
+# Program prints items and allows users to purchase items.
+
+def main():
+    items = ["shoes", "socks", "hat", "belt", "blouse", "dress", "tie"]
+    prices = [54.99,     7.11,  6.49,  22.58,    21.73,   38.99, 14.83]
+    
+
+main()
